@@ -39,7 +39,7 @@ void initialize_cache(int * cache, size_t cache_size) {
 }
 
 int fib_iter(int n) {
-    int64_t res = n < 2 ? n : fib_iter(n - 1) + fib_iter(n - 2);
+    int res = n < 2 ? n : fib_iter(n - 1) + fib_iter(n - 2);
     return res;
 }
 
